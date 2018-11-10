@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="bb093156-fa73-4a81-a386-e65fd1209a3b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:50779/Van.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Van.xsd" MetadataType="Schema" ID="dfa8b57e-8da7-4426-adcb-8d352e2173b0" SourceId="1" SourceUrl="http://localhost:50779/Van.svc?xsd=xsd2" />
+    <MetadataFile FileName="Van1.xsd" MetadataType="Schema" ID="650c52f8-5e7e-44d2-a37f-723655bdc018" SourceId="1" SourceUrl="http://localhost:50779/Van.svc?xsd=xsd1" />
+    <MetadataFile FileName="Van.wsdl" MetadataType="Wsdl" ID="7575ccc6-f879-450f-b01d-58923559bc48" SourceId="1" SourceUrl="http://localhost:50779/Van.svc?wsdl" />
+    <MetadataFile FileName="Van.disco" MetadataType="Disco" ID="4a798a82-fb67-47e2-a9c7-8635ede5c4a8" SourceId="1" SourceUrl="http://localhost:50779/Van.svc?disco" />
+    <MetadataFile FileName="Van2.xsd" MetadataType="Schema" ID="edbc3e02-2500-4e79-bfe2-1dea1e3416b7" SourceId="1" SourceUrl="http://localhost:50779/Van.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

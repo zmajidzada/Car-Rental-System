@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1c08e163-15c8-4942-a281-751a1baa0cf7" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52980/Car.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Car.disco" MetadataType="Disco" ID="11a58c4d-79df-4c34-baa5-d3970be141c2" SourceId="1" SourceUrl="http://localhost:52980/Car.svc?disco" />
+    <MetadataFile FileName="Car.xsd" MetadataType="Schema" ID="2a4bf03a-3459-424b-8170-b48566dc1f7d" SourceId="1" SourceUrl="http://localhost:52980/Car.svc?xsd=xsd1" />
+    <MetadataFile FileName="Car.wsdl" MetadataType="Wsdl" ID="2f0ab367-89c4-4b3c-9e50-f75656980798" SourceId="1" SourceUrl="http://localhost:52980/Car.svc?wsdl" />
+    <MetadataFile FileName="Car1.xsd" MetadataType="Schema" ID="a1bdc2c1-bfaa-4c82-97e6-fff7729b9963" SourceId="1" SourceUrl="http://localhost:52980/Car.svc?xsd=xsd0" />
+    <MetadataFile FileName="Car2.xsd" MetadataType="Schema" ID="a7695f7e-6481-41ab-8209-8e2a36974321" SourceId="1" SourceUrl="http://localhost:52980/Car.svc?xsd=xsd2" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
